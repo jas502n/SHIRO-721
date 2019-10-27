@@ -30,6 +30,12 @@ cookie的cookiememeMe已通过AES-128-CBC模式加密，这很容易受到填充
 1.4.0, 
 1.4.1
 ```
+## rememberMeManager cipherKey
+```
+root@kali:/opt/tomcat/apache-tomcat-8.5.47/webapps/samples-web-1.5.0-SNAPSHOT# cat ./WEB-INF/shiro.ini |grep cipherKey
+# We need to set the cipherKey, if you want the rememberMe cookie to work after restarting or on multiple nodes.
+securityManager.rememberMeManager.cipherKey = kPH+bIxk5D2deZiIxcaaaA==
+```
 
 ## 参考链接：
 
