@@ -12,7 +12,7 @@ cookie的cookiememeMe已通过AES-128-CBC模式加密，这很容易受到填充
 
 2. 使用RememberMe cookie作为Padding Oracle Attack的前缀。
 
-3. 加密yoserial的序列化有效负载，以通过Padding Oracle Attack制作精心制作的RememberMe。
+3. 加密ysoserial的序列化有效负载，以通过Padding Oracle Attack制作精心制作的RememberMe。
 
 4. 请求带有新的RememberMe cookie的网站，以执行反序列化攻击。
 
