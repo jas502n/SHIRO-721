@@ -39,6 +39,28 @@ root@kali:/opt/tomcat/apache-tomcat-8.5.47/webapps/samples-web-1.5.0-SNAPSHOT# c
 securityManager.rememberMeManager.cipherKey = kPH+bIxk5D2deZiIxcaaaA==
 
 ```
+## default WEB-INF jar
+```
+./WEB-INF/lib/commons-beanutils-1.9.4.jar
+./WEB-INF/lib/commons-codec-1.13.jar
+./WEB-INF/lib/commons-collections-3.2.2.jar
+./WEB-INF/lib/jcl-over-slf4j-1.7.26.jar
+./WEB-INF/lib/log4j-1.2.17.jar
+./WEB-INF/lib/shiro-cache-1.5.0-SNAPSHOT.jar
+./WEB-INF/lib/shiro-config-core-1.5.0-SNAPSHOT.jar
+./WEB-INF/lib/shiro-config-ogdl-1.5.0-SNAPSHOT.jar
+./WEB-INF/lib/shiro-core-1.5.0-SNAPSHOT.jar
+./WEB-INF/lib/shiro-crypto-cipher-1.5.0-SNAPSHOT.jar
+./WEB-INF/lib/shiro-crypto-core-1.5.0-SNAPSHOT.jar
+./WEB-INF/lib/shiro-crypto-hash-1.5.0-SNAPSHOT.jar
+./WEB-INF/lib/shiro-event-1.5.0-SNAPSHOT.jar
+./WEB-INF/lib/shiro-lang-1.5.0-SNAPSHOT.jar
+./WEB-INF/lib/shiro-web-1.5.0-SNAPSHOT.jar
+./WEB-INF/lib/slf4j-api-1.7.26.jar
+./WEB-INF/lib/slf4j-log4j12-1.7.26.jar
+./WEB-INF/lib/taglibs-standard-impl-1.2.5.jar
+./WEB-INF/lib/taglibs-standard-spec-1.2.5.jar
+```
 
 ## 参考链接：
 
