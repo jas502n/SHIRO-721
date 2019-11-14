@@ -65,3 +65,6 @@ securityManager.rememberMeManager.cipherKey = kPH+bIxk5D2deZiIxcaaaA==
 ## 参考链接：
 
 https://issues.apache.org/jira/browse/SHIRO-721
+
+漏洞复现
+https://www.anquanke.com/post/id/192819
